@@ -37,16 +37,25 @@ namespace WpfApp3
 
         private void GenerujHaslo_Click(object sender, RoutedEventArgs e)
         {
-          
+            int test;
             
             
+           
             string Litery = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
             string liczby = "1234567890";
             string ZnakiSpecjalne = "!@#$%^&*9()_+-=";
             
             Random random = new Random();
+            random.ToString();
+         
+           int.TryParse(IloscZnakow.Text, out test);
 
-          
+            for (int i = 0; i < test; i++) 
+            {
+                random.Next();
+            
+            
+            }
             
 
             
