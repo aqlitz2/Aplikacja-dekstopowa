@@ -19,6 +19,46 @@ namespace WpfApp3
         public MainWindow()
         {
             InitializeComponent();
+            
+        
+        
+        }
+
+        private void PrzyciskZatwierdz_Click(object sender, RoutedEventArgs e)
+        {
+
+        
+        
+        
+        
+        
+        
+        }
+
+        private void GenerujHaslo_Click(object sender, RoutedEventArgs e)
+        {
+          
+            
+            
+            string Litery = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM";
+            string liczby = "1234567890";
+            string ZnakiSpecjalne = "!@#$%^&*9()_+-=";
+            
+            Random random = new Random();
+
+          
+            
+
+            
+
+            
+        
+        
+        
+        
+        
+        
+        
         }
     }
 }
